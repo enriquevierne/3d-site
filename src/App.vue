@@ -1,16 +1,10 @@
 <script setup>
-import "./style.css"
-import HelloWorld from './components/HelloWorld.vue'
+import "./style.css";
+import HelloWorld from "./components/HelloWorld.vue";
 </script>
 
 <template>
-  <div class="w-full flex flex-col items-center justify-center bg-rose-700">
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" alt="Vue logo" />
-    </a>
+  <div class="flex flex-col items-center justify-center w-full min-h-screen">
+    <HelloWorld msg="Vite + Vue" />
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>

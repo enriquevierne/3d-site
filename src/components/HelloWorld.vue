@@ -1,40 +1,14 @@
 <script setup>
-import { ref } from 'vue'
-
-defineProps({
-  msg: String,
-})
-
-const count = ref(0)
+import { ref } from "vue";
 </script>
 
 <template>
-  <h1>{{ msg }}</h1>
-
-  <div class="card">
-    <button type="button" @click="count++">count is {{ count }}</button>
-    <p>
-      Edit
-      <code>components/HelloWorld.vue</code> to test HMR
-    </p>
+  <div class="flex flex-wrap items-center justify-center gap-10">
+    <div class="w-24 h-24 bg-gradient-to-br from-blue-600 to-amber-800">1</div>
+    <div class="w-32 h-32 bg-gradient-to-br from-amber-600 to-green-800">2</div>
+    <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-orange-800">3</div>
+    <div class="bg-gradient-to-br from-orange-600 to-teal-800 h-44 w-44">4</div>
+    <div class="w-64 h-64 bg-gradient-to-br from-teal-600 to-violet-800">5</div>
+    <div class="w-6 h-6 bg-gradient-to-br from-violet-600 to-blue-800">6</div>
   </div>
-
-  <p>
-    Check out
-    <a href="https://vuejs.org/guide/quick-start.html#local" target="_blank"
-      >create-vue</a
-    >, the official Vue + Vite starter
-  </p>
-  <p>
-    Install
-    <a href="https://github.com/vuejs/language-tools" target="_blank">Volar</a>
-    in your IDE for a better DX
-  </p>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
-
-<style scoped>
-.read-the-docs {
-  color: #888;
-}
-</style>
