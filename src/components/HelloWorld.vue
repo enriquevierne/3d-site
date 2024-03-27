@@ -3,12 +3,53 @@ import { ref } from "vue";
 </script>
 
 <template>
-  <div class="flex flex-wrap items-center justify-center gap-10">
-    <div class="w-24 h-24 bg-gradient-to-br from-blue-600 to-amber-800">1</div>
-    <div class="w-32 h-32 bg-gradient-to-br from-amber-600 to-green-800">2</div>
-    <div class="w-12 h-12 bg-gradient-to-br from-green-600 to-orange-800">3</div>
-    <div class="bg-gradient-to-br from-orange-600 to-teal-800 h-44 w-44">4</div>
-    <div class="w-64 h-64 bg-gradient-to-br from-teal-600 to-violet-800">5</div>
-    <div class="w-6 h-6 bg-gradient-to-br from-violet-600 to-blue-800">6</div>
+  <div class="w-11/12 overflow-hidden h-96">
+    <div class="p-4 space-y-4 columns-3 animate-scroll">
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/mais-que-amigos-friend.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/netos-e-davi.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-3.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-barber.png" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-coco.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-noel.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/mais-que-amigos-friend.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/netos-e-davi.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-3.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-barber.png" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-coco.jpg" alt="" />
+      </div>
+      <div class="bg-gray-200 shadow-[5px_5px_4px_#8b8b8b,-5px_-5px_4px_#ffffff] rounded-2xl p-4">
+        <img src="/rael-noel.jpg" alt="" />
+      </div>
+      <span
+        
+      ></span>
+    </div>
   </div>
 </template>
+<style scoped>
+.text-shadow {
+  color: #00880085;
+  text-shadow: 1px 1px 2px #e0e4e7, 0 0 0 black, 1px 4px 6px #def;
+}
+</style>
